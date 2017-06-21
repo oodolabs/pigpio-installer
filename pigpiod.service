@@ -1,5 +1,5 @@
 [Unit]
-Description=PiGpio daemon
+Description=pigpio daemon
 
 [Service]
 ExecStart=/usr/local/bin/pigpiod

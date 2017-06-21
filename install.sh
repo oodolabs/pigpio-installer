@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 pushd /opt
+
 # install
 rm pigpio.zip
 sudo rm -rf PIGPIO

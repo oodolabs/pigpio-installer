@@ -21,7 +21,7 @@ sudo bash -c "cat <<EOT >> /lib/systemd/system/pigpiod.service
 Description=pigpio daemon
 
 [Service]
-ExecStart=/usr/local/bin/pigpiod
+ExecStart=/usr/local/bin/pigpiod -l
 Type=forking
 
 [Install]
